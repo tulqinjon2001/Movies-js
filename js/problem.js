@@ -42,11 +42,13 @@ resArray.join(" ");
 console.log(resArray.join(" "));
 
 // Problem five
-let inputNum = 3;
-let inputString = "Hello";
-let fiveProblemArray = [];
+let arrayFiveProblem = [];
 
-for(let i = 1; i < inputNum.length; i++) {
-  fiveProblemArray.push(inputString);
+let add = (text, number) => {
+  for (let i = 0; i < number; i++) {
+    arrayFiveProblem.push(text);
+  }
+  console.log(arrayFiveProblem);
 }
-console.log(fiveProblemArray);
+
+add('Alo', 8)
